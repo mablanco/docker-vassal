@@ -1,4 +1,5 @@
 FROM mablanco/adoptopenjdk8-hotspot
+ENV DEBIAN_FRONTEND noninteractive
 ARG VASSAL_VERSION=3.2.17
 RUN apt-get -yq install bzip2 libxtst6 libxrender1 libxaw7 libexpat1 libfontconfig1 && \
     wget -q http://downloads.sourceforge.net/vassalengine/VASSAL-$VASSAL_VERSION-linux.tar.bz2 && \
