@@ -2,7 +2,7 @@
 
 Docker image for VASSAL, an open-source game engine for building and playing online adaptations of board games and card games (<http://www.vassalengine.org/index.php>).
 
-This image is built upon my Docker image for AdoptOpenJDK 8, as VASSAL needs an older JVM version than those that most modern Linux distros can provide.
+This image is built upon my Docker image for AdoptOpenJDK 8 JRE, as VASSAL needs an older JVM version than those that most modern Linux distros can provide.
 
 ## How to use this image
 
@@ -16,6 +16,6 @@ As this is tedious to type each time you want to launch VASSAL, I'd suggest assi
 
 Add the alias definition to your `~/.bashrc` to persist it between reboots.
 
-## Note
+## Note on security
 
 This way of running the container has the disadvantage of breaking container isolation. X security leaks like keylogging and remote host control can be abused by container applications.
