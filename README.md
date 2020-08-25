@@ -2,7 +2,7 @@
 
 Docker image for VASSAL, an open-source game engine for building and playing online adaptations of board games and card games (<http://www.vassalengine.org/index.php>).
 
-This image is built upon my Docker image for AdoptOpenJDK 8 JRE, as VASSAL needs an older JVM version than those that most modern Linux distros can provide.
+This image is built upon my Docker image for AdoptOpenJDK 8 JRE, as VASSAL versions older than 3.3 need that JVM version, not available in most modern Linux distros. VASSAL 3.3 is compatible with Java 11 and will easily run directly from the CLI.
 
 ## How to use this image
 
