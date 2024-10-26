@@ -1,3 +1,5 @@
+> :warning: This repository has been archived, as VASSAL 3.2 has been replaced by newer versions that are fully compatible with modern Linux distributions. Therefore, this repository is no longer maintained or required.
+
 # docker-vassal
 
 Docker image for VASSAL 3.2, an open-source game engine for building and playing online adaptations of board games and card games (<http://www.vassalengine.org/index.php>).
